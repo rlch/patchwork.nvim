@@ -1,0 +1,9 @@
+# lua-language-server --check output (transient).
+.lls-check-out/
+
+# Test/coverage output.
+luacov.*.out
+.luacov
+
+# OS noise.
+.DS_Store
