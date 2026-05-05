@@ -1577,7 +1577,6 @@ end
 -- ---------------------------------------------------------------------------
 
 local inline_ns = vim.api.nvim_create_namespace("patchwork_inline_diff")
-local inline_sign_group = "patchwork_inline_signs"
 
 -- Per-buffer line metadata, keyed by buffer handle.
 -- Each entry: { display_lines, line_meta = { [i] = { type, old_lnum, new_lnum } } }
