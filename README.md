@@ -1,5 +1,9 @@
 # patchwork.nvim
 
+[![CI](https://github.com/rlch/patchwork.nvim/actions/workflows/ci.yml/badge.svg)](https://github.com/rlch/patchwork.nvim/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
+[![Neovim](https://img.shields.io/badge/Neovim-%3E%3D%200.10-57A143?logo=neovim&logoColor=white)](https://neovim.io/)
+
 A Neovim plugin that bridges AI coding agents to your editor and renders proposed changes as a VS Code-style **inline diff** — accept or reject with one keystroke.
 
 > **Status:** early / WIP. Currently speaks Claude Code's IDE protocol; designed to extend to other agents.
