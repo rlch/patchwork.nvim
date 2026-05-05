@@ -2,7 +2,9 @@ std = "luajit"
 cache = true
 codes = true
 
-read_globals = {
+-- `vim` must be writable so that vim.bo / vim.wo / vim.b / vim.g / vim.env
+-- assignments don't trip W122 (read-only field). Subfields are still scoped.
+globals = {
   "vim",
 }
 
